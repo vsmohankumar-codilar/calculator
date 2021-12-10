@@ -1,0 +1,103 @@
+/* input{
+    grid-column: span 4;
+    height: 125px;
+    width: 310px;
+    background-color: black;
+    color: white;
+} */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif; }
+
+body {
+  background-color: "hsl(0, 0%, 90%)"; }
+
+.calc {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  background-color: 'hsl(222, 26%, 31%)';
+  border-radius: 15px;
+  width: 25%;
+  box-shadow: 4px 4px 4px 4px; }
+
+#result {
+  background-color:#000;
+  height: 52px;
+  width: 100%;
+  top: 0;
+  padding: 0; }
+
+.theme {
+  padding-top: 5px; }
+
+.buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: "hsl(185, 42%, 37%)"; }
+  .buttons button {
+    padding: 10px;
+    border-radius: 10px; }
+    .buttons button:hover {
+      background-color: turquoise;
+      transition: 0.5s; }
+
+.screen {
+  border-radius: 25px;
+  margin-bottom: 15px; }
+
+.equal {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-color: red;
+  color: white; }
+
+.res {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: grey;
+  color: white; }
+
+.del {
+  background-color: grey;
+  color: white; }
+
+.chbg {
+  width: 25px;
+  height: 40px; }
+
+.toggle {
+  width: 75px; }
+
+html {
+  font-size: 100%; }
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 90%; } }
+@media only screen and (max-width: 1100px) {
+  html {
+    font-size: 80%; } }
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 70%; } }
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 60%; } }
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 50%; } }
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 40%; } }
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 30%; } }
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 20%; } }
+
+/*# sourceMappingURL=cal.css.map */
